@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  width: 700px;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  background-color: #e5eff5;
+  position: relative;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+}
+
+#head {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 4rem auto;
+  border-radius: .5rem;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  #head {
+    margin: 2rem auto;
+    width: 375px;
+    overflow: visible;
+  }
+}
+
+#head .join {
+  background-color: #fff;
+  padding: 3rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 375px) {
+  #head .join {
+    padding: 1rem;
+  }
+}
+
+#head .join h1 {
+  color: #2ab2af;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .join h1 {
+    font-weight: 700;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+#head .join p.p1 {
+  color: #c0df34;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .join p.p1 {
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+}
+
+#head .join p.p2 {
+  color: #98a6bd;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .join p.p2 {
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+#head .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#head .bottom .subs {
+  width: 100%;
+  padding: 3rem;
+  color: #fff;
+  background-color: #2ab2af;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .subs {
+    padding: 2rem 0rem;
+    width: 375px;
+  }
+}
+
+#head .bottom .subs .title {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .subs .title {
+    padding: .5rem 1rem;
+  }
+}
+
+#head .bottom .subs .p1 {
+  padding-bottom: .8rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .subs .p1 {
+    padding: .5rem 1rem;
+  }
+}
+
+#head .bottom .subs .p1 strong {
+  font-weight: 700;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .subs .p1 strong {
+    font-weight: 400;
+    font-size: 2rem;
+    padding-top: .6rem;
+  }
+}
+
+#head .bottom .subs .p1 span {
+  position: relative;
+  bottom: 5px;
+  opacity: .8;
+  padding-left: 10px;
+}
+
+#head .bottom .subs .p2 {
+  color: #e5eff5;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .subs .p2 {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
+}
+
+#head .bottom .subs a.btn {
+  padding: .8rem 5.8rem;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #c0df34;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .subs a.btn {
+    margin-left: 1rem;
+  }
+}
+
+#head .bottom .why {
+  width: 100%;
+  padding: 3rem;
+  color: #fff;
+  background-color: #2ab2af;
+  text-align: left;
+  opacity: .8;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .why {
+    padding: 1rem 0rem;
+    width: 375px;
+  }
+}
+
+#head .bottom .why .title {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .why .title {
+    padding: .5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #head .bottom .why ul {
+    padding: .5rem 1rem;
+  }
+}
+
+#head .bottom .why ul li {
+  list-style: none;
+  color: #e5eff5;
+}
+/*# sourceMappingURL=style.css.map */
